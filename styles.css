@@ -1,0 +1,175 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav .logo img {
+  height: 50px;
+}
+
+nav .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+nav .nav-links li a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f4f4f4;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* About Section */
+.about {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Products Section */
+.products {
+  background-color: #f4f4f4;
+  padding: 4rem 0;
+}
+
+.products h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.product-card p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.product-card .crossed-price {
+  text-decoration: line-through;
+  color: red;
+}
+
+.product-card .buy-now {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.product-card .buy-now:hover {
+  background-color: #218838;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 4rem 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery-images img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Contact Section */
+.contact {
+  padding: 3rem 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
